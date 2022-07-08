@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.c800e4ed.css",
+    "main.js": "/portfolio-react/static/js/main.df638e5f.js",
+    "static/media/project4.png": "/portfolio-react/static/media/project4.8c5661caf3caddf468fd.png",
+    "static/media/cv.pdf": "/portfolio-react/static/media/cv.a97b24469fdf99ed92fa.pdf",
+    "static/media/project3.png": "/portfolio-react/static/media/project3.08776354b3dd01c99948.png",
+    "static/media/project1.png": "/portfolio-react/static/media/project1.a246446b573884e20cd6.png",
+    "static/media/project2.png": "/portfolio-react/static/media/project2.ef9029dfb7540c955039.png",
+    "static/media/projectLand.jpg": "/portfolio-react/static/media/projectLand.bb5b28f6e71272f10d6c.jpg",
+    "static/media/project5.png": "/portfolio-react/static/media/project5.1e77c554255f28958ea7.png",
+    "static/media/MinecrafterReg.ttf": "/portfolio-react/static/media/MinecrafterReg.697a9d6552471f719bae.ttf",
+    "index.html": "/portfolio-react/index.html",
+    "main.c800e4ed.css.map": "/portfolio-react/static/css/main.c800e4ed.css.map",
+    "main.df638e5f.js.map": "/portfolio-react/static/js/main.df638e5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c800e4ed.css",
+    "static/js/main.df638e5f.js"
+  ]
+}
