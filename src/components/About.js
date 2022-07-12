@@ -6,7 +6,7 @@ const About = () => {
     <div name="About" className="about">
       <h1>Sobre mí</h1>
       <div className="about-container">
-        <img src={photo} alt="Photo" />
+        <img src={photo} alt="" />
         <div className="description">
           <p>Mi nombre es Wilmar Rodriguez, tengo 27 años, soy originario de Colombia y soy
             programador Web Full-Stack titulado de Academlo
