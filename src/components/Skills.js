@@ -54,7 +54,7 @@ const Skills = () => {
 
   return (
     <div name="Skills" className="skills">
-      <h1>Skills</h1>
+      <h1>Habilidades Técnicas</h1>
       <div className="skills-container">
         {skills.map(({ name, src }) => (
           <div key={name} className="skill">

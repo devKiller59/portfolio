@@ -1,0 +1,27 @@
+.nav-bar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  background-color: #163eec;
+  color: #fff;
+  border-bottom: 1px solid #7c7c7c;
+}
+
+.nav-bar li {
+  cursor: pointer;
+  list-style: none;
+  padding: 10px 30px;
+  font-family: monospace;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-bar li:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}

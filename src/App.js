@@ -23,30 +23,30 @@ function App() {
   }, []);
 
   return (
-    <div>
-      {isLoading ? <Loader /> :
-        <div>
-          <Menu />
-          <Home />
-          <About />
-          <Projects />
-          <Skills />
-          <Services />
-          <Contact />
-          <Footer />
-        </div>
-      }
-    </div>
     // <div>
-    //   <Menu />
-    //   <Home />
-    //   <About />
-    //   <Projects />
-    //   <Skills />
-    //   <Services />
-    //   <Contact />
-    //   <Footer />
+    //   {isLoading ? <Loader /> :
+    //     <div>
+    //       <Menu />
+    //       <Home />
+    //       <About />
+    //       <Projects />
+    //       <Skills />
+    //       <Services />
+    //       <Contact />
+    //       <Footer />
+    //     </div>
+    //   }
     // </div>
+    <div>
+      <Menu />
+      <Home />
+      <About />
+      <Projects />
+      <Skills />
+      <Services />
+      <Contact />
+      <Footer />
+    </div>
   )
 };
 

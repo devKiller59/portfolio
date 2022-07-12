@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
+import '../assets/styles/menu.css';
 
 const Menu = () => {
   const [nav, setNav] = useState(false);
@@ -32,7 +33,7 @@ const Menu = () => {
   ];
 
   return (
-    <div>
+    <nav>
       <ul className="nav-bar" >
         {links.map(({ id, link }) => (
           <li key={id}>
@@ -54,7 +55,7 @@ const Menu = () => {
           ))}
         </ul>
       )}
-    </div>
+    </nav>
   );
 };
 

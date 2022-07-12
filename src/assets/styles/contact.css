@@ -1,0 +1,75 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 6rem 6rem;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container form input {
+  width: 30rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-family: monospace;
+}
+
+.form-container form textarea {
+  width: 30rem;
+  min-height: 15rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.form-container form input::placeholder,
+.form-container form textarea::placeholder {
+  color: #000;
+}
+
+.form-container button {
+  margin-top: 1rem;
+  position: relative;
+  padding: 10px 35px;
+  border-radius: 15px;
+  background-color: rgb(35, 93, 116);
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+  box-shadow: 0 5px 10px #000;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-container button:hover {
+  transform: scale(1.1);
+  background-color: #163eec;
+  transition: all 0.3s ease-in-out;
+}

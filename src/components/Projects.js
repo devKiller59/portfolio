@@ -20,7 +20,7 @@ const Projects = () => {
     {
       id: 2,
       src: project2,
-      title: "Random Quote Generator",
+      title: "Random Quotes",
       description: "Generador de citas aleatorias, con opciones de color y compartir en Twitter",
       technologies: "HTML, CSS, JavaScript",
       demo: "https://randomquotes-thekiller1959.netlify.app",
@@ -56,11 +56,11 @@ const Projects = () => {
     {
       id: 6,
       src: projectLand,
-      title: "Project6",
-      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
-      technologies: "HTML",
-      demo: "",
-      code: "",
+      title: "Proyecto-6",
+      description: "/* Proyecto en desarrollo */",
+      technologies: "GitHub, Netlify",
+      demo: "https://thekiller1959dev.netlify.app",
+      code: "https://github.com/TheKiller1959",
     }
   ]
 
@@ -68,11 +68,13 @@ const Projects = () => {
 
   return (
     <div name="Projects" className="projects">
-      <h1>Projects</h1>
+      <h1>Proyectos</h1>
+      <h2>En esta seccion se muestran algunos de mis proyectos, tambien puedes ver el código de cada uno con el botón de "Código"</h2>
       <div className='grid'>
         {projects.map(({ id, src, title, description, technologies, demo, code }) => (
           <div className="card" key={id}>
             <div className="face front">
+              <h3>{title}</h3>
               <img src={src} alt={title} />
             </div>
             <div className="face back">

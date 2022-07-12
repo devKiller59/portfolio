@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 4rem 6rem 3rem;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 2rem 10rem;
+  font-family: monospace;
+}
+
+.about-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40%;
+  border: 3px dotted #666666;
+  transition: all 0.4s ease-in-out;
+}
+
+.about-container img:hover {
+  transform:scale(1.2);
+  transition: all 0.4s ease-in-out;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  gap: 3rem;
+  padding: 0 3rem;
+}

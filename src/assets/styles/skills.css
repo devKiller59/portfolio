@@ -4,7 +4,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 14rem 1rem;
+  padding: 4rem 6rem 10rem;
 }
 
 .skills-container {
@@ -21,10 +21,14 @@
   text-align: center;
   justify-content: center;
   padding: 2rem 6rem;
-  border-radius: 0px 0px 10px 10px;
-  border: 2px solid #63aeb8;
-  border-top: none;
-  transition: all .2s ease-in-out;
+  border-radius: 0px 0px 20px 20px;
+  transition: all .3s ease-in-out;
+  background-image: url(../images/waves.gif);
+  background-position: calc(100% - 0px) calc(100% + 280px);
+  background-repeat: no-repeat;
+  font-family: monospace;
+  font-size: 1rem;
+  box-shadow: 0 5px 10px #000;
 }
 
 .skill-icon img {
@@ -34,6 +38,7 @@
 }
 
 .skill:hover {
-  transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
   transform: scale(1.05);
+  background-position: calc(100% - 0px) calc(100% + 20px);
 }
