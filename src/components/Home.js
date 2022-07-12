@@ -2,7 +2,7 @@ import cv from '../assets/files/cv.pdf';
 
 const Home = () => {
   return (
-    <div name="Home" className='home'>
+    <div name="Home" className='home' id='home'>
       <div>
         <h1>WILMAR RODRIGUEZ</h1>
         <h3>Desarrolador Web Front-End</h3>

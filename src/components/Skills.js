@@ -1,50 +1,53 @@
+import '../assets/styles/skills.css';
+import js from '../assets/icons/js.png';
+import react from '../assets/icons/react.png';
+import node from '../assets/icons/node.png';
+import html from '../assets/icons/html.png';
+import css from '../assets/icons/css.png';
+import sequelize from '../assets/icons/sequelize.png';
+import github from '../assets/icons/github.png';
+import linux from '../assets/icons/linux.png';
+import git from '../assets/icons/git.png';
+
+
 const Skills = () => {
 
-  const hardSkills = [
+  const skills = [
     {
       name: 'JavaScript',
-      level: '90%',
-      icon: 'js'
+      src: js
     },
     {
       name: 'React.js',
-      level: '90%',
-      icon: 'react'
+      src: react
     },
     {
       name: 'Node.js',
-      level: '90%',
-      icon: 'node'
+      src: node
     },
     {
       name: 'HTML',
-      level: '90%',
-      icon: 'html5'
+      src: html
     },
     {
       name: 'CSS',
-      level: '90%',
-      icon: 'css3'
+      src: css
     },
     {
       name: 'Sequelize',
-      level: '90%',
-      icon: 'sequelize'
+      src: sequelize
     },
     {
       name: 'Github',
-      level: '90%',
-      icon: 'github'
+      src: github
     },
     {
       name: 'Linux',
-      level: '90%',
-      icon: 'linux'
+      src: linux
     },
     {
       name: 'Git',
-      level: '90%',
-      icon: 'git'
+      src: git
     }
   ];
 
@@ -53,14 +56,11 @@ const Skills = () => {
     <div name="Skills" className="skills">
       <h1>Skills</h1>
       <div className="skills-container">
-        {hardSkills.map(({ name, level, icon }) => (
+        {skills.map(({ name, src }) => (
           <div key={name} className="skill">
             <div className="skill-icon">
-              <i className={`devicon-${icon}-plain colored`}></i>
-            </div>
-            <div className="skill-info">
-              <h2>{name}</h2>
-              <p>{level}</p>
+              <img src={src} alt={name} />
+              <h3>{name}</h3>
             </div>
           </div>
         ))}

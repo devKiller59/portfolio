@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Minecrafter;
+  src: url('../fonts/MinecrafterReg.ttf');
+}
+
 .loading {
   margin: 0;
   padding: 0;
@@ -6,38 +11,35 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #121213;
-}
-
-@font-face {
+  background-color: #2d1d47;
   font-family: Minecrafter;
-  src: url('../fonts/MinecrafterReg.ttf');
+  text-shadow: 0 0 10px #000000;
 }
 
 .loader {
   position: relative;
-  -webkit-box-reflect: below -28px linear-gradient(transparent, #0002);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0002);
 }
 
-.loader::before {
+.loader::after {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
-  width: 2px;
-  height: 100%;
-  background: #03e9f4;
+  width: 5px;
+  height: 90%;
+  background: #fefefe;
   animation: blinkCursor 0.8s steps(3) infinite;
 }
 
 @keyframes blinkCursor {
 
   0%,
-  75% {
+  50% {
     opacity: 1;
   }
 
-  76%,
+  51%,
   100% {
     opacity: 0;
   }
@@ -45,9 +47,9 @@
 
 .loader h2 {
   position: relative;
-  color: #03e9f0;
-  letter-spacing: 5px;
-  font-size: 4em;
+  color: #e1e42b;
+  letter-spacing: 15px;
+  font-size: 3em;
   text-transform: uppercase;
   animation: typing 8s steps(10) infinite;
   overflow: hidden;
@@ -63,6 +65,6 @@
 
   30%,
   60% {
-    width: 430px;
+    width: 410px;
   }
 }

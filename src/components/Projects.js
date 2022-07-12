@@ -1,3 +1,4 @@
+import '../assets/styles/projects.css'
 import project1 from "../assets/images/projects/project1.png";
 import project2 from "../assets/images/projects/project2.png";
 import project3 from "../assets/images/projects/project3.png";
@@ -38,7 +39,7 @@ const Projects = () => {
       id: 4,
       src: project4,
       title: "Weather App",
-      description: "App de clima basado en la API de OpenWeatherMap",
+      description: "App que muestra informacion del clima basado en la API de OpenWeatherMap",
       technologies: "HTML, CSS, JavaScript, React.js, Axios",
       demo: "https://thekiller1959-weather-app.netlify.app",
       code: "https://github.com/TheKiller1959/weather-app",
@@ -56,30 +57,41 @@ const Projects = () => {
       id: 6,
       src: projectLand,
       title: "Project6",
-      description: "Project6",
-      technologies: "",
+      description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      technologies: "HTML",
       demo: "",
       code: "",
     }
   ]
 
+
+
   return (
     <div name="Projects" className="projects">
       <h1>Projects</h1>
-      {projects.map(({ id, src, title, description, technologies, demo, code }) => (
-        <div key={id} className="project">
-          <img src={src} alt={title} width="250"/>
-          <div className="project-info">
-            <h2>{title}</h2>
-            <p>{description}</p>
-            <p>{technologies}</p>
-            <div className="project-links">
-              <a href={demo} target="_blank" rel="noopener noreferrer">Demo</a>
-              <a href={code} target="_blank" rel="noopener noreferrer">Code</a>
+      <div className='grid'>
+        {projects.map(({ id, src, title, description, technologies, demo, code }) => (
+          <div className="card" key={id}>
+            <div className="face front">
+              <img src={src} alt={title} />
+            </div>
+            <div className="face back">
+              <h3>{title}</h3>
+              <p>{description}</p>
+              <p>Tecnologías Utilizadas: <b>{technologies}</b></p>
+              <div className="link">
+                <a href={demo} target="_blank" rel="noopener noreferrer">
+                  <button>Demo</button>
+                </a>
+                <a href={code} target="_blank" rel="noopener noreferrer">
+                  <button>Code</button>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
+
     </div>
   )
 };
