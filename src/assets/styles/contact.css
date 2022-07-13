@@ -36,6 +36,7 @@
   border-radius: 10px;
   margin-bottom: 1rem;
   font-family: monospace;
+  color: #000;
 }
 
 .form-container form textarea {
@@ -45,11 +46,12 @@
   border-radius: 10px;
   margin-bottom: 1rem;
   min-height: 15rem;
+  color: #000;
 }
 
 .form-container form input::placeholder,
 .form-container form textarea::placeholder {
-  color: #000;
+  color: #4b4b4b;
 }
 
 .form-container button {

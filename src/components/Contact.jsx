@@ -14,9 +14,12 @@ const Contact = () => {
       </p>
       <div className='form-container'>
         <form action="https://getform.io/f/d7beba7b-7830-4df3-b660-e03daedc428a" method="POST">
-          <input type="text" name="name" placeholder="Nombre" required />
-          <input type="email" name="email" placeholder="Email" required />
-          <textarea name="message" placeholder="Mensaje" required></textarea>
+          <b>-los campos marcados con (*) son obligatorios-</b>
+          <br />
+          <input type="text" name="nombre" placeholder="Nombre*" required />
+          <input type="email" name="email" placeholder="Email*" required />
+          <input type="tel" name="telefono" placeholder="Teléfono"/>
+          <textarea name="message" placeholder="Mensaje*" required></textarea>
           <button type="submit">Enviar</button>
         </form>
       </div>
