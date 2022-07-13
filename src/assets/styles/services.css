@@ -40,13 +40,18 @@
   margin-bottom: 2rem;
 }
 
+.service-description p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
 .service:hover {
   transition: all .2s ease-in-out;
   transform: scale(1.05);
 }
 
 @media screen and (max-width: 768px) {
-  .services{
+  .services {
     padding: 2rem 3rem 6rem;
   }
 

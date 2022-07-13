@@ -156,28 +156,31 @@
   .projects {
     padding: 2rem 1rem;
   }
+
   .grid {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
+
   .card {
     width: 300px;
     height: 300px;
   }
+
   .back h3 {
-  font-size: 22px;
-  margin-top: 10px;
-  letter-spacing: 2px;
-  font-family: Syne Mono;
-}
+    font-size: 22px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: Syne Mono;
+  }
 
-.back p {
-  font-size: 13px;
-}
+  .back p {
+    font-size: 13px;
+  }
 
-.back button {
-  margin-top: 1.2rem;
-  font-size: 12px;
-}
+  .back button {
+    margin-top: 1.2rem;
+    font-size: 12px;
+  }
 }

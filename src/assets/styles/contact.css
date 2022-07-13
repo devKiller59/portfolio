@@ -11,6 +11,10 @@
 
 .contact p {
   font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p:nth-child(3) {
   margin-bottom: 3rem;
 }
 
@@ -80,7 +84,8 @@
     padding: 4rem 3rem 6rem;
   }
 
-  .form-container form input, .form-container form textarea {
+  .form-container form input,
+  .form-container form textarea {
     max-width: 20rem;
   }
 

@@ -9,7 +9,8 @@ const Contact = () => {
       <h1>Contacto</h1>
       <p>
         Deseas conocer más sobre mi trabajo o tienes alguna duda?
-        <br />
+      </p>
+      <p>
         No dudes en contactarme.
       </p>
       <div className='form-container'>
@@ -18,7 +19,7 @@ const Contact = () => {
           <br />
           <input type="text" name="nombre" placeholder="Nombre*" required />
           <input type="email" name="email" placeholder="Email*" required />
-          <input type="tel" name="telefono" placeholder="Teléfono"/>
+          <input type="tel" name="telefono" placeholder="Teléfono" />
           <textarea name="message" placeholder="Mensaje*" required></textarea>
           <button type="submit">Enviar</button>
         </form>
