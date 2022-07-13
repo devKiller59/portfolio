@@ -72,7 +72,7 @@ const Projects = () => {
   return (
     <div id='projects' name="Projects" className="projects" style={{ backgroundColor: theme.projectBackground, color: theme.projectTextColor, transition: ".2s" }} >
       <h1>Proyectos</h1>
-      <h2>En esta seccion se muestran algunos de mis proyectos, tambien puedes ver el código de cada uno con el botón de "Código"</h2>
+      <h2>En esta seccion se muestran algunos de mis proyectos, puedes visitar cada uno a través del botón "Demo", tambien puedes ver el código de cada uno con el botón "Código"</h2>
       <div className='grid'>
         {projects.map(({ id, src, title, description, technologies, demo, code }) => (
           <div className="card" key={id}>
@@ -89,7 +89,7 @@ const Projects = () => {
                   <button>Demo</button>
                 </a>
                 <a href={code} target="_blank" rel="noopener noreferrer">
-                  <button>Code</button>
+                  <button>Código</button>
                 </a>
               </div>
             </div>
