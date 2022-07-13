@@ -75,7 +75,7 @@
 
 @media screen and (max-width: 768px) {
   .contact {
-    padding: 2rem 3rem 6rem;
+    padding: 4rem 3rem 6rem;
   }
 
   .form-container form input, .form-container form textarea {

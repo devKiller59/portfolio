@@ -63,3 +63,25 @@
     width: 410px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .loader h2 {
+    font-size: 2em;
+    letter-spacing: 10px;
+  }
+
+  @keyframes typing {
+
+    0%,
+    90%,
+    100% {
+      width: 0;
+    }
+
+    30%,
+    60% {
+      width: 280px;
+    }
+  }
+
+}

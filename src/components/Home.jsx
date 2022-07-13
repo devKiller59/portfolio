@@ -24,11 +24,7 @@ const Home = () => {
       {/* title */}
       <div className="home-container">
         <h1>WILMAR RODRIGUEZ</h1>
-        <div className="home-description">
-          <h3>
-            Desarrollador Web
-          </h3>
-        </div>
+        <h3>Desarrollador Web</h3>
       </div>
       <div>
         <a href={cv} download target="_blank" rel="noopener noreferrer">
