@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import Services from './components/Services';
 import Loader from './components/Loader';
 import ThemeProvider from './context/ThemeProvider';
-import Menu2 from './components/Menu';
+import Menu from './components/Menu';
 
 function App() {
 
@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <ThemeProvider>
-        {/* <div>
+        <div>
           {isLoading ? <Loader /> :
             <div>
               <Menu />
@@ -38,10 +38,9 @@ function App() {
               <Footer />
             </div>
           }
-        </div> */}
-        <div>
-          {/* <Menu /> */}
-          <Menu2 />
+        </div>
+        {/* <div>
+          <Menu />
           <Home />
           <About />
           <Projects />
@@ -49,7 +48,7 @@ function App() {
           <Services />
           <Contact />
           <Footer />
-        </div>
+        </div> */}
       </ThemeProvider>
     </>
   )
