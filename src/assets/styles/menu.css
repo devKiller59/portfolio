@@ -1,15 +1,13 @@
 .nav-bar {
   position: fixed;
-  z-index: 9999;
   top: 0;
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 1rem;
-  background-color: #163eec;
-  color: #fff;
   border-bottom: 1px solid #7c7c7c;
+  z-index: 1;
 }
 
 .nav-bar li {
@@ -18,10 +16,68 @@
   padding: 10px 30px;
   font-family: monospace;
   font-size: 1rem;
-  transition: all 0.3s ease-in-out;
 }
 
 .nav-bar li:hover {
   transform: scale(1.2);
   transition: all 0.3s ease-in-out;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  --background: #160757;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: .5s;
+  border-radius: 30px;
+  box-shadow: 0 0 0.2em 0.2em #e7e7e7;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border: none;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 8px -4px 0px 0px #fff352;
+  background: var(--background);
+  transition: .5s;
+}
+
+input:checked+.slider {
+  background-color: #3C36DE;
+}
+
+input:checked+.slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #ffee00;
 }

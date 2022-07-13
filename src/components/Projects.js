@@ -5,8 +5,11 @@ import project3 from "../assets/images/projects/project3.png";
 import project4 from "../assets/images/projects/project4.png";
 import project5 from "../assets/images/projects/project5.png";
 import projectLand from "../assets/images/projects/projectLand.jpg";
+import { useTheme } from "../context/ThemeProvider";
 
 const Projects = () => {
+  const { theme } = useTheme();
+
   const projects = [
     {
       id: 1,
@@ -67,7 +70,7 @@ const Projects = () => {
 
 
   return (
-    <div name="Projects" className="projects">
+    <div name="Projects" className="projects" style={{ backgroundColor: theme.projectBackground, color: theme.projectTextColor, transition: ".2s" }} >
       <h1>Proyectos</h1>
       <h2>En esta seccion se muestran algunos de mis proyectos, tambien puedes ver el código de cada uno con el botón de "Código"</h2>
       <div className='grid'>

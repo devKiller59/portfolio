@@ -29,14 +29,9 @@ h1 {
 /* End Root */
 
 
-/* Media Queries */
-
-  @media screen and (max-width: 768px) {
-    h1 {
-      font-size: 30px;
-    }
-    
-    
-  }
+/* Media query min-420px */
+@media screen and (min-width: 768px) {
+  
+}
 
 /* End Media Queries */

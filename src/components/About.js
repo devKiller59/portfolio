@@ -1,9 +1,13 @@
 import '../assets/styles/about.css';
 import photo from '../assets/images/photo.jpg';
+import { useTheme } from "../context/ThemeProvider";
 
 const About = () => {
+
+  const { theme } = useTheme();
+
   return (
-    <div name="About" className="about">
+    <div name="About" className="about" style={{ backgroundColor: theme.aboutBackground, color: theme.aboutTextColor, transition: ".2s" }} >
       <h1>Sobre mí</h1>
       <div className="about-container">
         <img src={photo} alt="" />

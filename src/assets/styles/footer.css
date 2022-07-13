@@ -4,8 +4,6 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-color: #163eec;
-  color: #fff;
   border-top: 1px solid #7c7c7c;
 }
 
@@ -19,7 +17,6 @@
   font-size: 1rem;
   border: 2px solid black;
   border-radius: 5px;
-  background-color: rgb(35, 93, 116);
   padding: 15px;
 }
 
@@ -44,4 +41,14 @@
   font-size: 12px;
   font-family: monospace;
   padding: 2rem 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    padding: 1rem 0 1rem;
+  }
+
+  .copyright {
+    padding: 2rem 3rem;
+  }
 }

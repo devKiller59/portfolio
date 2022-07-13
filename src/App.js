@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Services from './components/Services';
 import Loader from './components/Loader';
-
+import ThemeProvider from './context/ThemeProvider';
 
 function App() {
 
@@ -23,8 +23,22 @@ function App() {
   }, []);
 
   return (
-    <div>
-      {isLoading ? <Loader /> :
+    <>
+      <ThemeProvider>
+        {/* <div>
+          {isLoading ? <Loader /> :
+            <div>
+              <Menu />
+              <Home />
+              <About />
+              <Projects />
+              <Skills />
+              <Services />
+              <Contact />
+              <Footer />
+            </div>
+          }
+        </div> */}
         <div>
           <Menu />
           <Home />
@@ -35,18 +49,8 @@ function App() {
           <Contact />
           <Footer />
         </div>
-      }
-    </div>
-    // <div>
-    //   <Menu />
-    //   <Home />
-    //   <About />
-    //   <Projects />
-    //   <Skills />
-    //   <Services />
-    //   <Contact />
-    //   <Footer />
-    // </div>
+      </ThemeProvider>
+    </>
   )
 };
 

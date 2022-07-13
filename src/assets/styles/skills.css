@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   padding: 4rem 6rem 10rem;
+  background-color: #fff;
 }
 
 .skills-container {
@@ -21,7 +22,7 @@
   text-align: center;
   justify-content: center;
   padding: 2rem 6rem;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 10px 10px;
   transition: all .3s ease-in-out;
   background-image: url(../images/waves.gif);
   background-position: calc(100% - 0px) calc(100% + 280px);
@@ -41,4 +42,20 @@
   transition: all .5s ease-in-out;
   transform: scale(1.05);
   background-position: calc(100% - 0px) calc(100% + 20px);
+}
+
+@media screen and (max-width: 768px) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .skill {
+    padding: 1rem 3rem;
+  }
+
+  .skill:hover {
+    background-position: calc(100% - 0px) calc(100% + 50px);
+  }
 }

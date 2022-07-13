@@ -8,9 +8,11 @@ import sequelize from '../assets/icons/sequelize.png';
 import github from '../assets/icons/github.png';
 import linux from '../assets/icons/linux.png';
 import git from '../assets/icons/git.png';
+import { useTheme } from "../context/ThemeProvider";
 
 
 const Skills = () => {
+  const { theme } = useTheme();
 
   const skills = [
     {
@@ -53,11 +55,11 @@ const Skills = () => {
 
 
   return (
-    <div name="Skills" className="skills">
+    <div name="Skills" className="skills" style={{ backgroundColor: theme.skillsBackground, color: theme.skillsTextColor, transition: ".2s" }} >
       <h1>Habilidades Técnicas</h1>
       <div className="skills-container">
         {skills.map(({ name, src }) => (
-          <div key={name} className="skill">
+          <div key={name} className="skill" style={{ backgroundColor: theme.skillCardBackground, color: theme.skillCardTextColor, transition: ".2s" }} >
             <div className="skill-icon">
               <img src={src} alt={name} />
               <h3>{name}</h3>

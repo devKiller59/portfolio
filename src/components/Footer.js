@@ -3,8 +3,10 @@ import github from '../assets/icons/github.svg';
 import linkedin from '../assets/icons/linkedin.svg';
 import twitter from '../assets/icons/twitter.svg';
 import whatsapp from '../assets/icons/whatsapp.svg';
+import { useTheme } from "../context/ThemeProvider";
 
 const Footer = () => {
+  const { theme } = useTheme();
 
   const socialLinks = [
     {
@@ -30,8 +32,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="footer">
-      <div className="footer-container">
+    <footer className="footer" style={{ backgroundColor: theme.navBackground, color: theme.navTextColor, transition: ".2s" }} >
+      <div className="footer-container" style={{ backgroundColor: theme.socialBackground, color: theme.socialTextColor, transition: ".2s" }} >
         {socialLinks.map(({ name, url, icon }) => (
           <div className="social-links" key={name}>
             <a href={url} target="_blank" rel="noopener noreferrer">
