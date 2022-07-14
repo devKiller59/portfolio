@@ -5,7 +5,7 @@ const Contact = () => {
   const { theme } = useTheme();
 
   return (
-    <div id='contact' name="Contact" className="contact" style={{ backgroundColor: theme.contactBackground, color: theme.contactTextColor, transition: ".2s" }} >
+    <div id='contact' name="Contacto" className="contact" style={{ backgroundColor: theme.contactBackground, color: theme.contactTextColor, transition: ".2s" }} >
       <h1>Contacto</h1>
       <p>
         Deseas conocer más sobre mi trabajo o tienes alguna duda?

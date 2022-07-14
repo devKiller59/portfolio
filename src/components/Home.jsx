@@ -7,7 +7,7 @@ const Home = () => {
   const { theme } = useTheme();
 
   return (
-    <div name="Home" className='home' id='home' style={{ backgroundColor: theme.homeBackground, color: theme.hometextColor, transition: ".2s" }} >
+    <div name="Inicio" className='home' id='home' style={{ backgroundColor: theme.homeBackground, color: theme.hometextColor, transition: ".2s" }} >
       {/* background animation */}
       <ul className="circles">
         <li></li>

@@ -70,7 +70,7 @@ const Projects = () => {
 
 
   return (
-    <div id='projects' name="Projects" className="projects" style={{ backgroundColor: theme.projectBackground, color: theme.projectTextColor, transition: ".2s" }} >
+    <div id='projects' name="Proyectos" className="projects" style={{ backgroundColor: theme.projectBackground, color: theme.projectTextColor, transition: ".2s" }} >
       <h1>Proyectos</h1>
       <h2>En esta seccion se muestran algunos de mis proyectos, puedes visitar cada uno a través del botón "Demo", tambien puedes ver el código de cada uno con el botón "Código"</h2>
       <div className='grid'>

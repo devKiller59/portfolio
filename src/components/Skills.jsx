@@ -55,7 +55,7 @@ const Skills = () => {
 
 
   return (
-    <div id='skills' name="Skills" className="skills" style={{ backgroundColor: theme.skillsBackground, color: theme.skillsTextColor, transition: ".2s" }} >
+    <div id='skills' name="Habilidades" className="skills" style={{ backgroundColor: theme.skillsBackground, color: theme.skillsTextColor, transition: ".2s" }} >
       <h1>Habilidades Técnicas</h1>
       <div className="skills-container">
         {skills.map(({ name, src }) => (

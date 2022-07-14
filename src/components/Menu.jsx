@@ -21,27 +21,27 @@ const Menu = () => {
   const links = [
     {
       id: 1,
-      link: "Home",
+      link: "Inicio",
     },
     {
       id: 2,
-      link: "About",
+      link: "Sobre mí",
     },
     {
       id: 3,
-      link: "Projects",
+      link: "Proyectos",
     },
     {
       id: 4,
-      link: "Skills",
+      link: "Habilidades",
     },
     {
       id: 5,
-      link: "Services",
+      link: "Servicios",
     },
     {
       id: 6,
-      link: "Contact",
+      link: "Contacto",
     },
   ];
 

@@ -26,7 +26,7 @@ const Services = () => {
   ];
 
   return (
-    <div id='services' name="Services" className="services" style={{ backgroundColor: theme.serviceBackground, color: theme.serviceTextColor, transition: ".2s" }} >
+    <div id='services' name="Servicios" className="services" style={{ backgroundColor: theme.serviceBackground, color: theme.serviceTextColor, transition: ".2s" }} >
       <h1>Servicios</h1>
       <div className="services-container">
         {service.map(({ title, description, src }) => (
