@@ -46,16 +46,23 @@
 
 @media screen and (max-width: 768px) {
   .skills-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
   }
 
+  .skill-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+  }
+
+
   .skill {
-    padding: 1rem 3rem;
+    padding: 1rem;
   }
 
   .skill:hover {
-    background-position: calc(100% - 0px) calc(100% + 50px);
+    background-position: calc(100% - 0px) calc(100% + 110px);
   }
 }

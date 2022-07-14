@@ -1,27 +1,29 @@
 import '../assets/styles/contact.css';
 import { useTheme } from "../context/ThemeProvider";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const { theme } = useTheme();
+  const { t } = useTranslation("global");
 
   return (
     <div id='contact' name="Contacto" className="contact" style={{ backgroundColor: theme.contactBackground, color: theme.contactTextColor, transition: ".2s" }} >
-      <h1>Contacto</h1>
+      <h1>{t("contact.title")}</h1>
       <p>
-        Deseas conocer más sobre mi trabajo o tienes alguna duda?
+        {t("contact.text1")}
       </p>
       <p>
-        No dudes en contactarme.
+        {t("contact.text2")}
       </p>
       <div className='form-container'>
         <form action="https://getform.io/f/d7beba7b-7830-4df3-b660-e03daedc428a" method="POST">
-          <b>-los campos marcados con (*) son obligatorios-</b>
+          <b>-{t("contact.form.instructions")}-</b>
           <br />
-          <input type="text" name="nombre" placeholder="Nombre*" required />
-          <input type="email" name="email" placeholder="Email*" required />
-          <input type="tel" name="telefono" placeholder="Teléfono" />
-          <textarea name="message" placeholder="Mensaje*" required></textarea>
-          <button type="submit">Enviar</button>
+          <input type="text" name="nombre" placeholder={t("contact.form.name")} required />
+          <input type="email" name="email" placeholder={t("contact.form.email")} required />
+          <input type="tel" name="telefono" placeholder={t("contact.form.tel")} />
+          <textarea name="message" placeholder={t("contact.form.message")} required></textarea>
+          <button type="submit">{t("contact.form.button")}</button>
         </form>
       </div>
     </div>

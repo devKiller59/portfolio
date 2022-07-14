@@ -1,0 +1,71 @@
+{
+  "menu": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "description": {
+    "title": "Desarrollador Web",
+    "button": "Descarga mi CV"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "text1": "Mi nombre es Wilmar Rodriguez, tengo 27 años, soy originario de Colombia y soy desarrollador Web Full-Stack titulado de Academlo",
+    "text2": "Desde muy pequeño me he interesado en las nuevas tecnologías y su estructura esencial, tanto hardware como software, así como la funcionalidad de los programas y aplicaciones de computadoras y dispositivos móviles",
+    "text3": "Principalmente me dedico a crear proyectos audiovisuales en PC, me gusta jugar videojuegos, leer artículos de internet de cultura general, noticias relevantes y me gusta mucho la música electrónica"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "description": "En esta seccion se muestran algunos de mis proyectos, puedes visitar cada uno a través del botón 'Ejemplo', tambien puedes ver el código de cada uno con el botón 'Código'",
+    "card": {
+      "title1": "InstaPrices",
+      "description1": "Imitación de Instagram dirigido a empresas para que ofrezcan sus productos y servicios",
+      "title2": "App de Citas Aleatorias",
+      "description2": "Generador de citas aleatorias, con opciones de color y compartir en Twitter",
+      "title3": "App de Rick y Morty",
+      "description3": "Proyecto inspirado en la popular serie de TV, basado en la API de Rick and Morty",
+      "title4": "App del clima",
+      "description4": "App que muestra informacion del clima basado en la API de OpenWeatherMap",
+      "title5": "CRUD de usuarios",
+      "description5": "Proyecto de CRUD de usuarios, con opciones de crear, editar, eliminar y leer todos los usuarios de una base de datos",
+      "title6": "TheKiller1959 API",
+      "description6": "<!-- En desarrollo -->"
+    },
+    "technologies": "Tecnologías Utilizadas: ",
+    "button": "Ejemplo",
+    "button2": "Código"
+  },
+  "skills": {
+    "title": "Habilidades Técnicas"
+  },
+  "services": {
+    "title": "Servicios",
+    "card": {
+      "title1": "Desarrollo Web",
+      "description1": "Diseño y desarrollo de paginas y aplicaciones web, desde una idea hasta una aplicación completa, con un diseño responsivo y optimizado para todos los dispositivos.",
+      "title2": "Bases de datos SQL y NoSQL",
+      "description2": "Desarrollo y mantenimiento de bases de datos SQL y NoSQL, con una arquitectura de software, optimización de consultas y procesos.",
+      "title3": "Desarrollo de APIs",
+      "description3": "Diseño, desarrollo y consumo de API Rest usando NodeJS, Express y MongoDB según las necesidades del cliente."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "text1": "Deseas conocer más sobre mi trabajo o tienes alguna duda?",
+    "text2": "No dudes en contactarme",
+    "form": {
+      "instructions": "los campos marcados con (*) son obligatorios",
+      "name": "Nombre/Empresa*",
+      "email": "Correo Electrónico*",
+      "tel": "Teléfono",
+      "message": "Mensaje*",
+      "button": "Enviar"
+    }
+  },
+  "footer": {
+    "text": "Wilmar Rodriguez - Todos los derechos reservados"
+  }
+}

@@ -5,17 +5,42 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
   border-bottom: 1px solid #7c7c7c;
   z-index: 1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.buttons button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #7c7c7c;
+}
+
+.buttons img {
+  border-radius: 5px;
+  width: 2rem;
+  height: 1.3rem;
+  margin-bottom: -3px;
+  box-shadow: 0 0 0.1em 0.1em #e7e7e7;
 }
 
 .section {
   cursor: pointer;
   list-style: none;
-  padding: 10px 30px;
   font-family: monospace;
   font-size: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .section:hover {
@@ -158,6 +183,29 @@ input:checked+.slider:before {
     display: none;
   }
 
+  .buttons-res {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-right: 1rem;
+    z-index: 1;
+  }
+
+  .buttons-res button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #7c7c7c;
+  }
+
+  .buttons-res img {
+    border-radius: 5px;
+    width: 2.5rem;
+    height: 1.5rem;
+    box-shadow: 0 0 0.2em 0.2em #e7e7e7;
+  }
+
   .nav__toggler {
     display: block;
   }
@@ -179,6 +227,10 @@ input:checked+.slider:before {
 
 @media screen and (min-width: 768px) {
   .nav {
+    display: none;
+  }
+
+  .buttons-res {
     display: none;
   }
 }

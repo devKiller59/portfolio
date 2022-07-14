@@ -8,11 +8,15 @@ import sequelize from '../assets/icons/sequelize.png';
 import github from '../assets/icons/github.png';
 import linux from '../assets/icons/linux.png';
 import git from '../assets/icons/git.png';
+import mongodb from '../assets/icons/mongodb.png';
+import python from '../assets/icons/python.png';
 import { useTheme } from "../context/ThemeProvider";
+import { useTranslation } from "react-i18next";
 
 
 const Skills = () => {
   const { theme } = useTheme();
+  const { t } = useTranslation("global");
 
   const skills = [
     {
@@ -50,13 +54,21 @@ const Skills = () => {
     {
       name: 'Git',
       src: git
+    },
+    {
+      name: 'MongoDB',
+      src: mongodb
+    },
+    {
+      name: 'Python',
+      src: python
     }
   ];
 
 
   return (
     <div id='skills' name="Habilidades" className="skills" style={{ backgroundColor: theme.skillsBackground, color: theme.skillsTextColor, transition: ".2s" }} >
-      <h1>Habilidades Técnicas</h1>
+      <h1>{t("skills.title")}</h1>
       <div className="skills-container">
         {skills.map(({ name, src }) => (
           <div key={name} className="skill" style={{ backgroundColor: theme.skillCardBackground, color: theme.skillCardTextColor, transition: ".2s" }} >

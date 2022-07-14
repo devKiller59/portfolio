@@ -4,9 +4,11 @@ import linkedin from '../assets/icons/linkedin.svg';
 import twitter from '../assets/icons/twitter.svg';
 import whatsapp from '../assets/icons/whatsapp.svg';
 import { useTheme } from "../context/ThemeProvider";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   const { theme } = useTheme();
+  const { t } = useTranslation("global");
 
   const socialLinks = [
     {
@@ -43,7 +45,7 @@ const Footer = () => {
         ))}
       </div>
       <div className="copyright">
-        <p>&copy; Wilmar Rodriguez - Todos los derechos reservados</p>
+        <p>&copy; {t("footer.text")}</p>
         <br />
         <p>{new Date().getFullYear()}</p>
       </div>
