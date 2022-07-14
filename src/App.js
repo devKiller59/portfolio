@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <ThemeProvider>
-        {/* <div>
+        <div>
           {isLoading ? <Loader /> :
             <div>
               <Menu />
@@ -38,8 +38,8 @@ function App() {
               <Footer />
             </div>
           }
-        </div> */}
-        <div>
+        </div>
+        {/* <div>
           <Menu />
           <Home />
           <About />
@@ -48,7 +48,7 @@ function App() {
           <Services />
           <Contact />
           <Footer />
-        </div>
+        </div> */}
       </ThemeProvider>
     </>
   )
