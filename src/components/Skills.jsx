@@ -8,8 +8,8 @@ import sequelize from '../assets/icons/sequelize.png';
 import github from '../assets/icons/github.png';
 import linux from '../assets/icons/linux.png';
 import git from '../assets/icons/git.png';
-import mongodb from '../assets/icons/mongodb.png';
-import python from '../assets/icons/python.png';
+// import mongodb from '../assets/icons/mongodb.png';
+// import python from '../assets/icons/python.png';
 import { useTheme } from "../context/ThemeProvider";
 import { useTranslation } from "react-i18next";
 
@@ -55,14 +55,14 @@ const Skills = () => {
       name: 'Git',
       src: git
     },
-    {
-      name: 'MongoDB',
-      src: mongodb
-    },
-    {
-      name: 'Python',
-      src: python
-    }
+    // {
+    //   name: 'MongoDB',
+    //   src: mongodb
+    // },
+    // {
+    //   name: 'Python',
+    //   src: python
+    // }
   ];
 
 
