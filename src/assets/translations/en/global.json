@@ -66,6 +66,7 @@
     }
   },
   "footer": {
-    "text": "Wilmar Rodriguez - All rights reserved"
+    "text": "Wilmar Rodriguez - All rights reserved",
+    "whatsapp": "https://api.whatsapp.com/send?phone=573194118623&text=Hello! I would be interested in contacting you"
   }
 }

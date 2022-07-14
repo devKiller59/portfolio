@@ -28,7 +28,7 @@ const Footer = () => {
     },
     {
       name: 'WhatsApp',
-      url: 'https://api.whatsapp.com/send?phone=573194118623&text=Hola! Me interesaría poder contactar contigo',
+      url: (t("footer.whatsapp")),
       icon: whatsapp
     }
   ];
