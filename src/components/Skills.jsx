@@ -8,6 +8,7 @@ import sequelize from '../assets/icons/sequelize.png';
 import github from '../assets/icons/github.png';
 import linux from '../assets/icons/linux.png';
 import git from '../assets/icons/git.png';
+import postgresql from '../assets/icons/postgresql.png';
 // import mongodb from '../assets/icons/mongodb.png';
 // import python from '../assets/icons/python.png';
 import { useTheme } from "../context/ThemeProvider";
@@ -54,6 +55,10 @@ const Skills = () => {
     {
       name: 'Git',
       src: git
+    },
+    {
+      name: 'PostgreSQL',
+      src: postgresql
     },
     // {
     //   name: 'MongoDB',
