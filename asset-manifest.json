@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.992bef46.css",
-    "main.js": "/portfolio/static/js/main.fe573dac.js",
+    "main.js": "/portfolio/static/js/main.d98a160b.js",
     "static/media/photo.jpg": "/portfolio/static/media/photo.52552777e3800af21bf4.jpg",
     "static/media/waves.gif": "/portfolio/static/media/waves.afa0ddc9a5d099b7a4e9.gif",
     "static/media/project4.png": "/portfolio/static/media/project4.8c5661caf3caddf468fd.png",
@@ -10,6 +10,7 @@
     "static/media/project1.png": "/portfolio/static/media/project1.a246446b573884e20cd6.png",
     "static/media/project2.png": "/portfolio/static/media/project2.ef9029dfb7540c955039.png",
     "static/media/SyneMono.ttf": "/portfolio/static/media/SyneMono.1d127ec799153de3a432.ttf",
+    "static/media/postgresql.png": "/portfolio/static/media/postgresql.6aa19142422261e25b76.png",
     "static/media/project5.png": "/portfolio/static/media/project5.1e77c554255f28958ea7.png",
     "static/media/project6.jpg": "/portfolio/static/media/project6.8c3a1a1032b83377359e.jpg",
     "static/media/sequelize.png": "/portfolio/static/media/sequelize.ee9b2cd1c2176ea4fe4f.png",
@@ -28,10 +29,10 @@
     "static/media/twitter.svg": "/portfolio/static/media/twitter.2d4677adc9df83679c6db0c1872c83aa.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.56692698550beef5d41b3d3fde41d803.svg",
     "main.992bef46.css.map": "/portfolio/static/css/main.992bef46.css.map",
-    "main.fe573dac.js.map": "/portfolio/static/js/main.fe573dac.js.map"
+    "main.d98a160b.js.map": "/portfolio/static/js/main.d98a160b.js.map"
   },
   "entrypoints": [
     "static/css/main.992bef46.css",
-    "static/js/main.fe573dac.js"
+    "static/js/main.d98a160b.js"
   ]
 }
