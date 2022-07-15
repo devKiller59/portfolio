@@ -58,7 +58,7 @@
   color: #4b4b4b;
 }
 
-.form-container button {
+.button {
   margin-top: 1rem;
   position: relative;
   padding: 10px 35px;
@@ -74,9 +74,33 @@
   transition: all 0.3s ease-in-out;
 }
 
-.form-container button:hover {
-  transform: scale(1.1);
+.button:hover {
   transition: all 0.3s ease-in-out;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -89,7 +113,7 @@
     max-width: 20rem;
   }
 
-  .form-container button {
+  .button {
     margin-top: 1rem;
     padding: 10px 20px;
   }

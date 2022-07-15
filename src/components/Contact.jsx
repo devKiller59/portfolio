@@ -23,7 +23,7 @@ const Contact = () => {
           <input type="email" name="email" placeholder={t("contact.form.email")} required />
           <input type="tel" name="telefono" placeholder={t("contact.form.tel")} />
           <textarea name="message" placeholder={t("contact.form.message")} required></textarea>
-          <button type="submit">{t("contact.form.button")}</button>
+          <button className='button' type="submit"><span>{t("contact.form.button")} </span></button>
         </form>
       </div>
     </div>
