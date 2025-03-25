@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to TheKiller1959 Portfolio 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/TheKiller1959/portfolio" target="_blank">
+  <a href="https://github.com/devKiller59/portfolio" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://twitter.com/thekiller1959" target="_blank">
@@ -11,7 +11,7 @@
 
 > This is my personal protfolio where I show what I know about web development and what can I do for the client
 
-### 🏠 [Homepage](https://TheKiller1959.github.io/portfolio)
+### 🏠 [Homepage](https://devkiller59.github.io/portfolio/)
 
 ## Install
 
@@ -35,10 +35,10 @@ npm run test
 
 👤 **Wil Rodríguez (TheKiller1959)**
 
-* Website: https://TheKiller1959.github.io/portfolio
+* Website: https://devkiller59.github.io/portfolio/
 * Twitter: [@thekiller1959](https://twitter.com/thekiller1959)
-* Github: [@TheKiller1959](https://github.com/TheKiller1959)
-* LinkedIn: [@thekiller1959](https://linkedin.com/in/thekiller1959)
+* Github: [@TheKiller1959](https://github.com/devKiller59)
+* LinkedIn: [@thekiller1959](https://linkedin.com/in/devkiller59)
 
 ## Show your support
 
