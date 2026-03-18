@@ -21,7 +21,7 @@ const Projects = () => {
       description: (t("projects.card.description1")),
       technologies: "HTML, CSS",
       demo: "https://instaprices.netlify.app",
-      code: "https://github.com/TheKiller1959/InstaPrices"
+      code: "https://github.com/devKiller59/InstaPrices"
     },
     {
       id: 2,
@@ -29,8 +29,8 @@ const Projects = () => {
       title: (t("projects.card.title2")),
       description: (t("projects.card.description2")),
       technologies: "HTML, CSS, JavaScript",
-      demo: "https://randomquotes-thekiller1959.netlify.app",
-      code: "https://github.com/TheKiller1959/random-quotes"
+      demo: "https://devkiller59-randomquotes.netlify.app",
+      code: "https://github.com/devKiller59/random-quotes"
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const Projects = () => {
       description: (t("projects.card.description3")),
       technologies: "HTML, CSS, JavaScript, React.js, Axios",
       demo: "https://collab-rick-and-morty.netlify.app",
-      code: "https://github.com/TheKiller1959/rick-y-morty",
+      code: "https://github.com/devKiller59/rick-y-morty",
     },
     {
       id: 4,
@@ -47,8 +47,8 @@ const Projects = () => {
       title: (t("projects.card.title4")),
       description: (t("projects.card.description4")),
       technologies: "HTML, CSS, JavaScript, React.js, Axios",
-      demo: "https://thekiller1959-weather-app.netlify.app",
-      code: "https://github.com/TheKiller1959/weather-app",
+      demo: "https://devkiller59-weather-app.netlify.app",
+      code: "https://github.com/devKiller59/weather-app",
     },
     {
       id: 5,
@@ -56,8 +56,8 @@ const Projects = () => {
       title: (t("projects.card.title5")),
       description: (t("projects.card.description5")),
       technologies: "HTML, CSS, JavaScript, React.js, Axios",
-      demo: "https://thkdev-crud.netlify.app",
-      code: "https://github.com/TheKiller1959/crud",
+      demo: "https://devkiller59-crud.netlify.app",
+      code: "https://github.com/devKiller59/crud",
     },
     {
       id: 6,
@@ -66,7 +66,7 @@ const Projects = () => {
       description: (t("projects.card.description6")),
       technologies: "HTML, CSS, JavaScript, React.js, Node.js, Express, Sequelize, MongoDB",
       demo: "https://infinite-caverns-17893.herokuapp.com",
-      code: "https://github.com/TheKiller1959/heroku-prueba",
+      code: "https://github.com/devKiller59/heroku-prueba",
     }
   ]
 
