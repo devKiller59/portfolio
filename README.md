@@ -32,8 +32,8 @@ npm run test
 
 👤 **Wil Rodríguez (devKiller59)**
 
-* Website: [https://devkiller59.github.io/portfolio/](https://devkiller59.netlify.app/)
-* Github: [@TheKiller1959](https://github.com/devKiller59)
+* Website: [[https://devkiller59.netlify.app](https://devkiller59.netlify.app)
+* Github: [devKiller59](https://github.com/devKiller59)
 * LinkedIn: [@devkiller59](https://linkedin.com/in/devkiller59)
 
 ## Show your support
