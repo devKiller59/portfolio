@@ -1,7 +1,6 @@
 import '../assets/styles/footer.css';
 import github from '../assets/icons/github.svg';
 import linkedin from '../assets/icons/linkedin.svg';
-import twitter from '../assets/icons/twitter.svg';
 import whatsapp from '../assets/icons/whatsapp.svg';
 import { useTheme } from "../context/ThemeProvider";
 import { useTranslation } from "react-i18next";
@@ -13,18 +12,13 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'Github',
-      url: 'https://github.com/TheKiller1959',
+      url: 'https://github.com/devKiller59',
       icon: github
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/thekiller1959',
+      url: 'https://www.linkedin.com/in/devKiller59',
       icon: linkedin
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/thekiller1959',
-      icon: twitter
     },
     {
       name: 'WhatsApp',
