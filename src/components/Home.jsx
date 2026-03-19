@@ -28,6 +28,7 @@ const Home = () => {
       {/* title */}
       <div className="home-container">
         <h1>WILMAR RODRIGUEZ</h1>
+        <h2>devKiller59</h2>
         <h3>{t("description.title")}</h3>
       </div>
       <div>
