@@ -16,7 +16,7 @@ const Contact = () => {
         {t("contact.text2")}
       </p>
       <div className='form-container'>
-        <form action="https://getform.io/f/d7beba7b-7830-4df3-b660-e03daedc428a" method="POST">
+        <form action="https://forminit.com/f/d7beba7b-7830-4df3-b660-e03daedc428a" method="POST">
           <b>-{t("contact.form.instructions")}-</b>
           <br />
           <input type="text" name="nombre" placeholder={t("contact.form.name")} required />

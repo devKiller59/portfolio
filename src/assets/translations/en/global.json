@@ -14,9 +14,9 @@
   },
   "about": {
     "title": "About",
-    "text1": "My name is Wilmar Rodriguez, I'm 27 years old, I'm originally from Colombia and I'm a Full-Stack Web developer with an Academlo degree.",
+    "text1": "My name is Wilmar Rodriguez, I'm 30 years old, I'm originally from Colombia and I'm a Full-Stack Web developer with an Academlo degree.",
     "text2": "From a very young age I have been interested in new technologies and their essential structure, both hardware and software, as well as the functionality of programs and applications for computers and mobile devices.",
-    "text3": "I mainly dedicate myself to creating audiovisual projects on PC, I like to play videogames, read general culture internet articles, relevant news and I really like electronic music."
+    "text3": "I mainly dedicate myself to creating audiovisual projects on PC, I like to play videogames, read general culture internet articles and relevant news, and I really like electronic music."
   },
   "projects": {
     "title": "Projects",
@@ -32,7 +32,7 @@
       "description4": "Application that displays weather information based on the OpenWeatherMap API",
       "title5": "Users CRUD",
       "description5": "Users CRUD project, with options to create, edit, delete and read all users from a database",
-      "title6": "TheKiller1959 API",
+      "title6": "DK59 API",
       "description6": "<!-- Under Development -->"
     },
     "technologies": "Technologies: ",
@@ -67,7 +67,7 @@
     }
   },
   "footer": {
-    "text": "Wilmar Rodriguez - All rights reserved",
-    "whatsapp": "https://api.whatsapp.com/send?phone=573194118623&text=Hello! I would be interested in contacting you"
+    "text": "devKiller59 - All rights reserved",
+    "whatsapp": "https://api.whatsapp.com/send?phone=573195625912&text=Hello! I would be interested in contacting you"
   }
 }
