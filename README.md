@@ -4,14 +4,11 @@
   <a href="https://github.com/devKiller59/portfolio" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://twitter.com/thekiller1959" target="_blank">
-    <img alt="Twitter: thekiller1959" src="https://img.shields.io/twitter/follow/thekiller1959.svg?style=social" />
-  </a>
 </p>
 
 > This is my personal protfolio where I show what I know about web development and what can I do for the client
 
-### 🏠 [Homepage](https://devkiller59.github.io/portfolio/)
+### 🏠 [Homepage]([https://devkiller59.github.io/portfolio/](https://devkiller59.netlify.app/))
 
 ## Install
 
@@ -33,12 +30,11 @@ npm run test
 
 ## Author
 
-👤 **Wil Rodríguez (TheKiller1959)**
+👤 **Wil Rodríguez (devKiller59)**
 
-* Website: https://devkiller59.github.io/portfolio/
-* Twitter: [@thekiller1959](https://twitter.com/thekiller1959)
+* Website: [https://devkiller59.github.io/portfolio/](https://devkiller59.netlify.app/)
 * Github: [@TheKiller1959](https://github.com/devKiller59)
-* LinkedIn: [@thekiller1959](https://linkedin.com/in/devkiller59)
+* LinkedIn: [@devkiller59](https://linkedin.com/in/devkiller59)
 
 ## Show your support
 
