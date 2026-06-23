@@ -64,9 +64,9 @@ const Projects = () => {
       src: project6,
       title: (t("projects.card.title6")),
       description: (t("projects.card.description6")),
-      technologies: "HTML, CSS, JavaScript, React.js, Node.js, Express, Sequelize, MongoDB",
-      demo: "https://infinite-caverns-17893.herokuapp.com",
-      code: "https://github.com/devKiller59/heroku-prueba",
+      technologies: "HTML, CSS, JavaScript, React.js, Node.js, Express, MongoDB",
+      demo: "https://dk59-crud-api.onrender.com/",
+      code: "https://github.com/devKiller59/crud-api",
     }
   ]
 
