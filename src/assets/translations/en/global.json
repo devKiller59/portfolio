@@ -32,8 +32,8 @@
       "description4": "Application that displays weather information based on the OpenWeatherMap API",
       "title5": "Users CRUD",
       "description5": "Users CRUD project, with options to create, edit, delete and read all users from a database",
-      "title6": "DK59 API",
-      "description6": "<!-- Under Development -->"
+      "title6": "KillerCoreAPI",
+      "description6": "RESTful API developed in Node.js and Express for complete user management."
     },
     "technologies": "Technologies: ",
     "button": "Demo",
