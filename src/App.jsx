@@ -22,7 +22,7 @@ function App() {
     const isBot =
       window.__PRERENDER_INJECTED || 
       navigator.userAgent.includes('ReactSnap') || 
-      navigator.userAgent.includes('NetlifyPrerender');
+      navigator.userAgent.includes('NetlifyPrerender') ||
       /bot|googlebot|crawler/i.test(navigator.userAgent);
 
     if (isBot) {
