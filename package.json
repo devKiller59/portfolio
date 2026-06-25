@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build && react-snap",
+    "build": "vite build",
     "test": "vite build",
     "preview": "vite preview"
   },
@@ -49,6 +49,7 @@
     "vite": "^8.1.0"
   },
   "reactSnap": {
+    "source": "dist",
     "skipThirdPartyRequests": true,
     "puppeteerArgs": [
       "--no-sandbox",

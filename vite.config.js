@@ -15,7 +15,7 @@ export default defineConfig({
         )
         .replace(
           '<body>',
-          '<b style="background-color: #2d1d47; margin: 0; min-height: 100vh;">'
+          '<body style="background-color: #2d1d47; margin: 0; min-height: 100vh;">'
         )
         .replace(
           '<div id="root">',
