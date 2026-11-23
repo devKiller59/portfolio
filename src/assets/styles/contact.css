@@ -49,7 +49,7 @@
   border: 1px solid #000;
   border-radius: 10px;
   margin-bottom: 1rem;
-  min-height: 15rem;
+  min-height: 10rem;
   color: #000;
 }
 
@@ -105,12 +105,12 @@
 
 @media screen and (max-width: 768px) {
   .contact {
-    padding: 4rem 3rem 6rem;
+    padding: 2rem 2rem 3rem;
   }
 
   .form-container form input,
   .form-container form textarea {
-    max-width: 20rem;
+    max-width: 18rem;
   }
 
   .button {

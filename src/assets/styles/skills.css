@@ -45,6 +45,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .skills {
+    padding: 2rem 2rem 3rem;
+  }
+
   .skills-container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;

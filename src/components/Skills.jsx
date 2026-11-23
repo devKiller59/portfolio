@@ -9,7 +9,7 @@ import github from '../assets/icons/github.png';
 import linux from '../assets/icons/linux.png';
 import git from '../assets/icons/git.png';
 import postgresql from '../assets/icons/postgresql.png';
-// import mongodb from '../assets/icons/mongodb.png';
+import mongodb from '../assets/icons/mongodb.png';
 // import python from '../assets/icons/python.png';
 import { useTheme } from "../context/ThemeProvider";
 import { useTranslation } from "react-i18next";
@@ -60,10 +60,10 @@ const Skills = () => {
       name: 'PostgreSQL',
       src: postgresql
     },
-    // {
-    //   name: 'MongoDB',
-    //   src: mongodb
-    // },
+    {
+       name: 'MongoDB',
+       src: mongodb
+    },
     // {
     //   name: 'Python',
     //   src: python

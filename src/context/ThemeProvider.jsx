@@ -4,7 +4,7 @@ const themeStyles = {
   dark: {
     navBackground: '#474747',
     navTextColor: '#ECEBEB',
-    menuBackground: '#001c49',
+    menuBackground: '#160757',
     menuTextColor: '#ECEBEB',
     homeBackground: '#160757',
     homeTextColor: '#f5f5f5',
@@ -28,9 +28,9 @@ const themeStyles = {
   light: {
     navBackground: '#DADADA',
     navTextColor: '#1b1b1b',
-    menuBackground: '#3C36DE',
+    menuBackground: '#3692de',
     menuTextColor: '#f5f5f5',
-    homeBackground: '#3C36DE',
+    homeBackground: '#3692de',
     homeTextColor: '#1b1b1b',
     aboutBackground: '#ECEBEB',
     aboutTextColor: '#1b1b1b',
@@ -46,7 +46,7 @@ const themeStyles = {
     serviceCardTextColor: '#ECEBEB',
     contactBackground: '#ECEBEB',
     contactTextColor: '#1b1b1b',
-    socialBackground: '#3C36DE',
+    socialBackground: '#8b8b8b',
     socialTextColor: '#1b1b1b',
   }
 

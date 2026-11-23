@@ -154,7 +154,11 @@
 @media screen and (max-width: 768px) {
 
   .projects {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem 3rem;
+  }
+
+  .projects h1 {
+    padding: 1rem 0rem 2rem;
   }
 
   .grid {
@@ -164,19 +168,19 @@
   }
 
   .card {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
 
   .back h3 {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 10px;
     letter-spacing: 2px;
     font-family: Syne Mono;
   }
 
   .back p {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .back button {
