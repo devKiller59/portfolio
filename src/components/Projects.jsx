@@ -4,7 +4,7 @@ import project2 from "../assets/images/projects/project2.png";
 import project3 from "../assets/images/projects/project3.png";
 import project4 from "../assets/images/projects/project4.png";
 import project5 from "../assets/images/projects/project5.png";
-import project6 from "../assets/images/projects/project6.png";
+import project6 from "../assets/images/projects/project6.jpg";
 // import projectLand from "../assets/images/projects/projectLand.jpg";
 import { useTheme } from "../context/ThemeProvider";
 import { useTranslation } from "react-i18next";
